@@ -15,6 +15,15 @@ public class TestLL {
 		LL.insertlast(78);
 		LL.insertlast(89);
 		LL.Display();
+		System.out.println("Deleted first element");
+		LL.deletefirst();
+		LL.Display();
+		System.out.println("Deleted through position 4");
+		LL.DeleteAtPos(4);
+		LL.Display();
+		System.out.println("Inserting value '98' at any postion");
+		LL.AddAtPos(98,1);
+		LL.Display();
 	}
 
 }
